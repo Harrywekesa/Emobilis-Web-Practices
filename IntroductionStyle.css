@@ -1,0 +1,18 @@
+.body {
+    background-color: slategrey;
+}
+
+.ordered {
+    justify-content: center;
+    color: chartreuse;
+}
+
+.unordered {
+    justify-content: center;
+    color: blue;
+}
+
+.Descriptive {
+    justify-content: center;
+    color: darkturquoise;
+}
