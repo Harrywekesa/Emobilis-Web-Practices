@@ -16,3 +16,18 @@
     justify-content: center;
     color: darkturquoise;
 }
+
+#list {
+    color: yellow;
+    border-bottom: black;
+}
+
+#hone {
+    color: darkviolet;
+}
+
+#p2 {
+    background-color: black;
+    font-family: "Lucida Console";
+    color: white;
+}
