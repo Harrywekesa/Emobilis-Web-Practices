@@ -31,3 +31,24 @@
     font-family: "Lucida Console";
     color: white;
 }
+
+.cheap {
+    height: 800px;
+    width: 1000px;
+}
+
+table  {
+    width: 100%;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+tr {
+    background-color: chartreuse;
+}
+
+th {
+    color: darkblue;
+}
