@@ -96,3 +96,8 @@ form{
     background-color:green;
     color: white;
 }
+
+.column {
+    float: left;
+    width: 50%;
+}
