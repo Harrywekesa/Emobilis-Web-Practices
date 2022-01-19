@@ -62,3 +62,32 @@ th {
 .musica {
     border: none;
 }
+
+.land {
+    background-image: url("images/background3.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+
+.nav {
+    list-style-type: none;
+    text-align: right;
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 5px;
+
+}
+
+form{
+    float: right;
+    margin-right: 600px;
+    width: 500px;
+    height: 600px;
+    background-color: white;
+}
