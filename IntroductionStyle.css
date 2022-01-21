@@ -87,17 +87,33 @@ th {
 form{
     float: right;
     margin-right: 600px;
-    width: 550px;
-    height: 600px;
+    /*margin-top: 0px;*/
+    width: 500px;
+    height: 550px;
     background-color: white;
 }
 
 #btnl{
     background-color:green;
     color: white;
+    margin-left: 10px;
 }
 
 .column {
     float: left;
     width: 50%;
+}
+
+a {
+    color: white;
+}
+
+#colOne {
+    margin-left:10px;
+}
+
+#heading1 {
+    margin-top: 100px;
+    margin-left: 750px;
+    color: white;
 }
