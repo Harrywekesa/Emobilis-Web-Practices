@@ -85,6 +85,107 @@
             </div>
         </div>
     </div>
+<br><br>
+
+    <h3>Setting one column width</h3>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-1">
+                1 of 5
+            </div>
+            <div class="col-2">
+                2 of 5
+            </div>
+            <div class="col-3">
+                3 of 5
+            </div>
+            <div class="col-4">
+                4 of 5
+            </div>
+            <div class="col-1">
+                5 of 5
+            </div>
+        </div>
+        <br><br>
+        <div class="row">
+            <div class="col-5">
+                1 of 5
+            </div>
+            <div class="col-4">
+                2 of 5
+            </div>
+            <div class="col-3">
+                3 of 5
+            </div>
+            <div class="col-2">
+                4 of 5
+            </div>
+            <div class="col-1">
+                5 of 5
+            </div>
+        </div>
+    </div>
+<br><br>
+    <p>Use the responsive .row-cols-* classes to quickly set the number of columns that
+        best render your content and layout. Whereas normal .col-* classes apply to the
+        individual columns (e.g., .col-md-4), the row columns classes are set on the parent
+        .row as a shortcut. With .row-cols-auto you can give the columns their natural width.</p><br>
+    <div class="container">
+        <div class="row row-cols-2">
+            <div class="col">Column 1</div>
+            <div class="col">Column 2</div>
+            <div class="col">Column 1</div>
+            <div class="col">Column 2</div>
+        </div>
+    </div>
+<br><br>
+<div class="container">
+    <div class="row row-cols-3">
+        <div class="col">Column 1</div>
+        <div class="col">Column 2</div>
+        <div class="col">Column 3</div>
+        <div class="col">Column 4</div>
+    </div>
+</div>
+<br><br>
+<div class="container">
+    <div class="row row-cols-auto">
+        <div class="col">Column 1</div>
+        <div class="col">Column 2</div>
+        <div class="col">Column 3</div>
+        <div class="col">Column 4</div>
+        <div class="col">Column 5</div>
+        <div class="col">Column 6</div>
+        <div class="col">Column 7</div>
+        <div class="col">Column 8</div>
+        <div class="col">Column 9</div>
+        <div class="col">Column 10</div>
+        <div class="col">Column 11</div>
+        <div class="col">Column 12</div>
+    </div>
+</div>
+<br><br>
+
+<h2>Nesting columns and rows</h2>
+<br>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3">
+                Level 1: .col-sm-3
+            </div>
+            <div class="col-sm-9">
+                <div class="row">
+                    <div class="col-8 col-sm-6">
+                        Level 2: .col-8 .col-sm-6
+                    </div>
+                    <div class="col-4 col-sm-6">
+                        Level 2: .col-4 .col-sm-6
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
